@@ -1,1 +1,2 @@
-require 'lib/sequencediagrammer/base.rb'
+require 'sequencediagrammer/base.rb'
+require 'sequencediagrammer/graphics.rb'
