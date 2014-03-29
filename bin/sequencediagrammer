@@ -1,3 +1,5 @@
 #!/bin/env ruby
 
 require 'sequencediagrammer'
+
+SequenceDiagrammer::Graphics::Main.new.run

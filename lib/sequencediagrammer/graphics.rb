@@ -6,7 +6,7 @@ end
 
 module SequenceDiagrammer
   module Graphics
-    class MainWindow
+    class Window
       def initialize
         root = TkRoot.new
         root.title = "Sequence Diagrammer"
@@ -18,8 +18,10 @@ module SequenceDiagrammer
       end
     end
 
-    def run
-      Tk.mainloop
+    class Main
+      def run
+        Tk.mainloop
+      end
     end
   end
 end
